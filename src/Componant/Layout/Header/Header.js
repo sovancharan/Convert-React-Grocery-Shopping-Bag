@@ -1,4 +1,6 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import NavbarData from '../../../Data/Navbar'
 
 import '../../../Componant/style.css'
 import List from "../../../img/list.png"
@@ -10,37 +12,40 @@ const Header = () => {
     <>
         
          {/* nav-bar  */}
-    <div class="header  ">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-                <a class="navbar-brand text-danger font-italic ps-5 fs-2" href="#">groceryecho</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+    <div className="header  ">
+        <nav className="navbar navbar-expand-lg navbar-light ">
+            {/* <div className="container-fluid"> */}
+                <Container fluid>
+                <a className="navbar-brand text-danger font-italic ps-5 fs-2" href="/">{NavbarData.NavbarHeader}</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div className="collapse navbar-collapse" id="navbarText">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                     </ul>
-                    <span class="navbar-text pe-5 w-50">
-                        <ul class="navbar-nav d-flex flex-row     justify-content-evenly nav-li-item">
-                            <li class="nav-item d-flex text-dark">
-                                <img class="nav-img" src={List} alt=""/>
-                                <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">list</a>
+                    <span className="navbar-text pe-5 w-50">
+                        <ul className="navbar-nav d-flex flex-row     justify-content-evenly nav-li-item">
+                            <li className="nav-item d-flex text-dark">
+                                <img className="nav-img" src={List} alt=""/>
+                                <a className="nav-link active fs-5 fw-bolder" aria-current="page" href="/">{NavbarData.List}</a>
                             </li>
-                            <li class="nav-item d-flex text-dark">
-                                <img class="position-relative dot-img" src={Eclipse} alt=""/>
-                                <img class="nav-img" src={Busket}alt=""/>
-                                <a class="nav-link active fs-5 fw-bolder" href="#">Busket</a>
+                            <li className="nav-item d-flex text-dark">
+                                <img className="position-relative dot-img" src={Eclipse} alt=""/>
+                                <img className="nav-img" src={Busket}alt=""/>
+                                <a className="nav-link active fs-5 fw-bolder" href="/">{NavbarData.Busket}</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active fs-5 text-success fw-bolder" href="#">Login</a>
+                            <li className="nav-item">
+                                <a className="nav-link active fs-5 text-success fw-bolder" href="/">{NavbarData.Login}</a>
                             </li>
 
                         </ul>
                     </span>
                 </div>
-            </div>
+
+                </Container>
+            {/* </div> */}
         </nav>
     </div>
     

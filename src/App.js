@@ -1,14 +1,11 @@
-import Header from "./Componant/Layout/Header/Header";
-import ImportantLink from "./Componant/Layout/ImportantLink/ImportantLink";
-import ShoppingBag from "./Componant/Layout/ShoppingBag/ShoppingBag";
+import Product from "./Componant1/Products/Product";
 
 
 function App() {
   return (
     <>
-      <Header/>
-      <ShoppingBag/>
-      <ImportantLink/>
+    <Product/>
+    
     </>
   );
 }
