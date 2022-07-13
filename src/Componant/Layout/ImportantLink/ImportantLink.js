@@ -5,11 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import KnowUs from "../../../Data/ImportantLinkData/KnowUs";
-import MonMetro from "../../../Data/ImportantLinkData/MonMetro";
-import WhatWeOffer from "../../../Data/ImportantLinkData/WhatWeOffer";
 
-const ImportantLink = () => {
+
+const ImportantLink = (props) => {
   return (
     <>
       {/* important links  */}
@@ -24,53 +22,53 @@ const ImportantLink = () => {
 
               <div className="ps-4 pb-4 pt-5">
                 <h6 className="text-white ">
-                  <b>{MonMetro.MonMetroHeading}</b>
+                  <b>{props.monoMetro.MonMetroHeading}</b>
                 </h6>
               </div>
               <ul className="text-white d-flex flex-column justify-content-center ">
                 <li className="">
                   <a className="text-white " href="/">
-                    {MonMetro.OnlineGrocery}
+                    {props.monoMetro.OnlineGrocery}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.OnlineGrocery}
+                    {props.monoMetro.OnlineGrocery}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.Coupons}
+                    {props.monoMetro.Coupons}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.RecipesAndOccasions}
+                    {props.monoMetro.RecipesAndOccasions}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.ProductsToDiscover}
+                    {props.monoMetro.ProductsToDiscover}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.Metromoi}
+                    {props.monoMetro.Metromoi}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.JustForMe}
+                    {props.monoMetro.JustForMe}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.MetroPriority}
+                    {props.monoMetro.MetroPriority}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {MonMetro.Cornershop}
+                    {props.monoMetro.Cornershop}
                   </a>
                 </li>
               </ul>
@@ -80,43 +78,43 @@ const ImportantLink = () => {
             <Col>
               <div className="ps-4 pb-4 pt-5">
                 <h6 className="text-white ">
-                  <b>{WhatWeOffer.heading}</b>
+                  <b>{props.whatWeOffer.heading}</b>
                 </h6>
               </div>
               <ul className="text-white d-flex flex-column justify-content-center ">
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.OnlineGrocery}
+                    {props.whatWeOffer.OnlineGrocery}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.OurPrivateBrands}
+                    {props.whatWeOffer.OurPrivateBrands}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.OurPartners}
+                    {props.whatWeOffer.OurPartners}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.ervices}
+                    {props.whatWeOffer.ervices}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.ProductsToDiscover}
+                    {props.whatWeOffer.ProductsToDiscover}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.GiftCard}
+                    {props.whatWeOffer.GiftCard}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {WhatWeOffer.Contests}
+                    {props.whatWeOffer.Contests}
                   </a>
                 </li>
               </ul>
@@ -124,38 +122,38 @@ const ImportantLink = () => {
             <Col>
               <div className="ps-4 pb-4 pt-5">
                 <h6 className="text-white ">
-                  <b>{KnowUs.heading}</b>
+                  <b>{props.knowUs.heading}</b>
                 </h6>
               </div>
               <ul class="text-white d-flex flex-column justify-content-center ">
                 <li>
                   <a className="text-white " href="/">
-                    {KnowUs.site}
+                    {props.knowUs.site}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {KnowUs.relation}
+                    {props.knowUs.relation}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {KnowUs.AboutUs}
+                    {props.knowUs.AboutUs}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {KnowUs.MetroGreen}
+                    {props.knowUs.MetroGreen}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {KnowUs.Responsibility}
+                    {props.knowUs.Responsibility}
                   </a>
                 </li>
                 <li>
                   <a className="text-white " href="/">
-                    {KnowUs.Careers}
+                    {props.knowUs.Careers}
                   </a>
                 </li>
               </ul>

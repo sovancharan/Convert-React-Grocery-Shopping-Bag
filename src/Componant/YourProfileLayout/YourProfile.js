@@ -1,13 +1,4 @@
 import React from "react";
-import Profile from "../../img/profile.png";
-import Setting from "../../img/setting.png";
-import TramsAndCon from "../../img/trams&condition.png";
-import Logout from "../../img/logout (2) 1.png";
-import Meat from "../../img/meat.png";
-import Quit from "../..img/quit 1.png";
-import Ghee from "../../img/ghe.png";
-import Urban from "../../img/urban.png";
-import Cofee from "../../img/coffe.png";
 import { Col, Container, Row } from "react-bootstrap";
 
 const YourProfile = () => {
@@ -28,7 +19,7 @@ const YourProfile = () => {
               <div className="bg-white rounded-3">
                 <div className="d-flex container py-4">
                   <div>
-                    <img src={Profile} alt="" />
+                    <img src="static/img/profile.png" alt="" />
                   </div>
                   <div className="container pt-4">
                     <h6>hello</h6>
@@ -39,7 +30,7 @@ const YourProfile = () => {
               <div className="seetings bg-white my-3">
                 <div className="container d-flex rounded-3 pt-2 pb-1">
                   <div className="pe-3">
-                    <img src={Setting} alt="" />
+                    <img src="static/img/setting.png" alt="" />
                   </div>
                   <h5>Account settings</h5>
                 </div>
@@ -47,7 +38,7 @@ const YourProfile = () => {
               <div className="seetings bg-white my-3">
                 <div className="container d-flex rounded-3 pt-2 pb-1">
                   <div className="pe-3">
-                    <img src={TramsAndCon} alt="" />
+                    <img src="static/img/trams&condition.png" alt="" />
                   </div>
                   <h5>Trams and Condition</h5>
                 </div>
@@ -55,7 +46,7 @@ const YourProfile = () => {
               <div className="seetings bg-white my-3">
                 <div className="container d-flex rounded-3 pt-2 pb-1">
                   <div className="pe-3">
-                    <img src={Logout} alt="" />
+                    <img src="static/img/logout (2) 1.png" alt="" />
                   </div>
                   <h5>Sign Out</h5>
                 </div>
@@ -70,7 +61,7 @@ const YourProfile = () => {
               <hr />
               <div className="d-flex ">
                 <div>
-                  <img className="img-fluid" src={Meat} alt="meat" />
+                  <img className="img-fluid" src="static/img/meat.png" alt="meat" />
                 </div>
                 <div className="w-100">
                   <div className="ps-4 ">
@@ -82,7 +73,7 @@ const YourProfile = () => {
                         <p>400g avg.</p>
                       </div>
                       <div>
-                        <img className="img-fluid" src={Quit} alt="" />
+                        <img className="img-fluid" src="static/img/quit 1.png" alt="" />
                       </div>
                     </div>
 
@@ -101,7 +92,7 @@ const YourProfile = () => {
 
               <div className="d-flex ">
                 <div>
-                  <img className="img-fluid" src={Urban} alt="meat" />
+                  <img className="img-fluid" src="static/img/urban.png" alt="meat" />
                 </div>
                 <div className="w-100">
                   <div className="ps-4 ">
@@ -113,7 +104,7 @@ const YourProfile = () => {
                         <p>400g avg.</p>
                       </div>
                       <div>
-                        <img className="img-fluid" src={Quit} alt="" />
+                        <img className="img-fluid" src="static/img/quit 1.png" alt="" />
                       </div>
                     </div>
 
@@ -132,7 +123,7 @@ const YourProfile = () => {
 
               <div className="d-flex ">
                 <div>
-                  <img className="img-fluid" src={Cofee} alt="meat" />
+                  <img className="img-fluid" src="static/img/coffe.png" alt="meat" />
                 </div>
                 <div className="w-100">
                   <div className="ps-4 ">
@@ -144,7 +135,7 @@ const YourProfile = () => {
                         <p>400g avg.</p>
                       </div>
                       <div>
-                        <img className="img-fluid" src={Quit} alt="" />
+                        <img className="img-fluid" src="static/img/quit 1.png" alt="" />
                       </div>
                     </div>
 
@@ -162,7 +153,7 @@ const YourProfile = () => {
               <hr />
               <div className="d-flex ">
                 <div>
-                  <img className="img-fluid" src={Ghee} alt="meat" />
+                  <img className="img-fluid" src="static/img/ghe.png" alt="meat" />
                 </div>
                 <div className="w-100">
                   <div className="ps-4 ">
@@ -174,7 +165,7 @@ const YourProfile = () => {
                         <p>400g avg.</p>
                       </div>
                       <div>
-                        <img className="img-fluid" src={Quit} alt="" />
+                        <img className="img-fluid" src="static/img/quit 1.png" alt="" />
                       </div>
                     </div>
 
@@ -193,7 +184,7 @@ const YourProfile = () => {
               <hr />
               <div className="d-flex ">
                 <div>
-                  <img className="img-fluid" src={Meat} alt="meat" />
+                  <img className="img-fluid" src="static/img/meat.png" alt="meat" />
                 </div>
                 <div className="w-100">
                   <div className="ps-4 ">
@@ -205,7 +196,7 @@ const YourProfile = () => {
                         <p>400g avg.</p>
                       </div>
                       <div>
-                        <img className="img-fluid" src={Quit} alt="" />
+                        <img className="img-fluid" src="static/img/quit 1.png" alt="" />
                       </div>
                     </div>
 
